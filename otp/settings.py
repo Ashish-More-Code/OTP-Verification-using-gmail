@@ -88,7 +88,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'otpproject',
         'USER': 'postgres',
-        'PASSWORD': 'Ashish@2000',
+        'PASSWORD':os.getenv('PASSWORD') ,
         'HOST': 'localhost',
         'PORT': '5432',
     }
