@@ -8,7 +8,6 @@ Create a .env file in your project root and add your sensitive information
 ===========
 EMAIL_HOST_PASSWORD=your_email_password
 
-=====================
 Load environment variables in your settings.py:
 ===================
 from dotenv import load_dotenv import os load_dotenv() 
