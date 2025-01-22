@@ -4,13 +4,30 @@ from django.contrib import messages
 from .emailer import *
 from .models import *
 import random
-
+from django.core.cache import cache
 # Create your views here.
 def home(request):
     if request.method=='POST':
         mobilenumber=request.POST['mobilenumber']
         password=request.POST['password']
+        user_obj=myuser.objects.filter(phone_number=mobilenumber)
         user=authenticate(phone_number=mobilenumber,password=password)
+        if cache.get(mobilenumber):
+            data = cache.get(mobilenumber)
+            data['count'] += 1
+            if data['count'] >= 3:
+                cache.set(mobilenumber,data,60*5)
+                messages.error(request, "Try OTP after some time")
+                return redirect(f'/checkotp/{user_obj[0].id}')
+            else:
+                cache.set(mobilenumber, data,60*1)
+
+        if not cache.get(mobilenumber):
+            data={
+                'phone_number':mobilenumber,
+                'count':1
+            }
+            cache.set(mobilenumber,data,60*1)
         if user is not None:
             login(request, user)
             uphone=request.user.phone_number
@@ -56,14 +73,22 @@ def signout(request):
     return redirect('/')
 
 def checkOtp(request,id):
+    user_obj=myuser.objects.get(id=id)
     if request.method=='POST':
+        
+        print(user_obj.phone_number)
         otp=request.POST['otp']
-        user_obj=myuser.objects.get(id=id)
         if int(otp)==user_obj.otp:
             return redirect('/dashboard')
         else:
             messages.error(request, "Invalid otp.")
             return redirect(f'/checkotp/{user_obj.id}')
+    else:
+        if cache.get(user_obj.phone_number):
+            data = cache.get(user_obj.phone_number)
+            if data['count'] >= 3:
+                messages.error(request, "Try OTP after some time")
+                return redirect('/')
     return render(request,'verifyotp.html')
 
 
