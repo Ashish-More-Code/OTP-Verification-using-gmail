@@ -1,0 +1,679 @@
+[2025-02-16 15:02:20,241: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-16 15:02:22,383: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-16 15:02:33,765: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-16 15:02:37,874: ERROR/MainProcess] Received unregistered task of type 'home.tasks.download_image'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you're using relative imports?
+
+Please see
+https://docs.celeryq.dev/en/latest/internals/protocol.html
+for more information.
+
+The full contents of the message body was:
+b'[["https://m.media-amazon.com/images/M/MV5BOTVjZDA3ZmQtYWI3MC00NjliLThiNDQtZGYxMzE3MTRhNjExXkEyXkFqcGc@._V1_QL75_UX500_CR0,0,500,281_.jpg", "downloads/", "image_d5a8433c-423f-4a9a-80bd-20c62a407c38.jpg"], {}, {"callbacks": null, "errbacks": null, "chain": null, "chord": null}]' (277b)
+
+The full contents of the message headers:
+{'lang': 'py', 'task': 'home.tasks.download_image', 'id': 'c576bab1-580e-4817-9c3e-cc4d1a0cfef3', 'shadow': None, 'eta': None, 'expires': None, 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'c576bab1-580e-4817-9c3e-cc4d1a0cfef3', 'parent_id': None, 'argsrepr': "('https://m.media-amazon.com/images/M/MV5BOTVjZDA3ZmQtYWI3MC00NjliLThiNDQtZGYxMzE3MTRhNjExXkEyXkFqcGc@._V1_QL75_UX500_CR0,0,500,281_.jpg', 'downloads/', 'image_d5a8433c-423f-4a9a-80bd-20c62a407c38.jpg')", 'kwargsrepr': '{}', 'origin': 'gen20092@Ashish', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'redelivered': True}
+
+The delivery info for this task is:
+{'exchange': '', 'routing_key': 'celery', 'redelivered': True}
+Traceback (most recent call last):
+  File "G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py", line 659, in on_task_received
+    strategy = strategies[type_]
+               ~~~~~~~~~~^^^^^^^
+KeyError: 'home.tasks.download_image'
+[2025-02-16 15:09:09,207: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-16 15:09:11,633: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-16 15:09:20,908: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-16 15:21:31,441: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-16 15:21:33,540: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-16 15:21:42,769: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-16 15:23:19,176: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-16 15:23:21,251: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-16 15:23:32,592: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-16 15:33:18,917: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-16 15:33:21,000: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-16 15:33:30,253: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 21:36:15,543: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 21:36:17,639: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 21:36:31,030: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 21:36:33,069: ERROR/MainProcess] Received unregistered task of type 'home.tasks.add'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you're using relative imports?
+
+Please see
+https://docs.celeryq.dev/en/latest/internals/protocol.html
+for more information.
+
+The full contents of the message body was:
+b'[[2, 3], {}, {"callbacks": null, "errbacks": null, "chain": null, "chord": null}]' (81b)
+
+The full contents of the message headers:
+{'lang': 'py', 'task': 'home.tasks.add', 'id': 'f3d61b30-9aef-4fc9-9204-201f48ccc0bc', 'shadow': None, 'eta': None, 'expires': None, 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'f3d61b30-9aef-4fc9-9204-201f48ccc0bc', 'parent_id': None, 'argsrepr': '(2, 3)', 'kwargsrepr': '{}', 'origin': 'gen15968@Ashish', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}}
+
+The delivery info for this task is:
+{'exchange': '', 'routing_key': 'celery'}
+Traceback (most recent call last):
+  File "G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py", line 659, in on_task_received
+    strategy = strategies[type_]
+               ~~~~~~~~~~^^^^^^^
+KeyError: 'home.tasks.add'
+[2025-02-17 21:50:46,747: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 21:50:49,101: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 21:50:58,399: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 21:51:04,593: ERROR/MainProcess] Received unregistered task of type 'home.tasks.add'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you're using relative imports?
+
+Please see
+https://docs.celeryq.dev/en/latest/internals/protocol.html
+for more information.
+
+The full contents of the message body was:
+b'[[2, 3], {}, {"callbacks": null, "errbacks": null, "chain": null, "chord": null}]' (81b)
+
+The full contents of the message headers:
+{'lang': 'py', 'task': 'home.tasks.add', 'id': '3b9045e1-93bb-4dc0-be0c-65f55f2a569c', 'shadow': None, 'eta': None, 'expires': None, 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '3b9045e1-93bb-4dc0-be0c-65f55f2a569c', 'parent_id': None, 'argsrepr': '(2, 3)', 'kwargsrepr': '{}', 'origin': 'gen15968@Ashish', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}}
+
+The delivery info for this task is:
+{'exchange': '', 'routing_key': 'celery'}
+Traceback (most recent call last):
+  File "G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py", line 659, in on_task_received
+    strategy = strategies[type_]
+               ~~~~~~~~~~^^^^^^^
+KeyError: 'home.tasks.add'
+[2025-02-17 21:51:06,652: ERROR/MainProcess] Received unregistered task of type 'home.tasks.add'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you're using relative imports?
+
+Please see
+https://docs.celeryq.dev/en/latest/internals/protocol.html
+for more information.
+
+The full contents of the message body was:
+b'[[2, 3], {}, {"callbacks": null, "errbacks": null, "chain": null, "chord": null}]' (81b)
+
+The full contents of the message headers:
+{'lang': 'py', 'task': 'home.tasks.add', 'id': 'f8627b91-352a-4e0d-988e-4b8953a7d3b9', 'shadow': None, 'eta': None, 'expires': None, 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'f8627b91-352a-4e0d-988e-4b8953a7d3b9', 'parent_id': None, 'argsrepr': '(2, 3)', 'kwargsrepr': '{}', 'origin': 'gen15968@Ashish', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}}
+
+The delivery info for this task is:
+{'exchange': '', 'routing_key': 'celery'}
+Traceback (most recent call last):
+  File "G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py", line 659, in on_task_received
+    strategy = strategies[type_]
+               ~~~~~~~~~~^^^^^^^
+KeyError: 'home.tasks.add'
+[2025-02-17 21:51:06,660: ERROR/MainProcess] Received unregistered task of type 'home.tasks.add'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you're using relative imports?
+
+Please see
+https://docs.celeryq.dev/en/latest/internals/protocol.html
+for more information.
+
+The full contents of the message body was:
+b'[[2, 3], {}, {"callbacks": null, "errbacks": null, "chain": null, "chord": null}]' (81b)
+
+The full contents of the message headers:
+{'lang': 'py', 'task': 'home.tasks.add', 'id': '485e013f-7fd3-4132-8375-d65b87389fed', 'shadow': None, 'eta': None, 'expires': None, 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '485e013f-7fd3-4132-8375-d65b87389fed', 'parent_id': None, 'argsrepr': '(2, 3)', 'kwargsrepr': '{}', 'origin': 'gen15968@Ashish', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}}
+
+The delivery info for this task is:
+{'exchange': '', 'routing_key': 'celery'}
+Traceback (most recent call last):
+  File "G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py", line 659, in on_task_received
+    strategy = strategies[type_]
+               ~~~~~~~~~~^^^^^^^
+KeyError: 'home.tasks.add'
+[2025-02-17 21:51:06,668: ERROR/MainProcess] Received unregistered task of type 'home.tasks.add'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you're using relative imports?
+
+Please see
+https://docs.celeryq.dev/en/latest/internals/protocol.html
+for more information.
+
+The full contents of the message body was:
+b'[[2, 3], {}, {"callbacks": null, "errbacks": null, "chain": null, "chord": null}]' (81b)
+
+The full contents of the message headers:
+{'lang': 'py', 'task': 'home.tasks.add', 'id': 'd8b156d6-004a-4628-9268-4b96584452cd', 'shadow': None, 'eta': None, 'expires': None, 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'd8b156d6-004a-4628-9268-4b96584452cd', 'parent_id': None, 'argsrepr': '(2, 3)', 'kwargsrepr': '{}', 'origin': 'gen15968@Ashish', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}}
+
+The delivery info for this task is:
+{'exchange': '', 'routing_key': 'celery'}
+Traceback (most recent call last):
+  File "G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py", line 659, in on_task_received
+    strategy = strategies[type_]
+               ~~~~~~~~~~^^^^^^^
+KeyError: 'home.tasks.add'
+[2025-02-17 21:51:06,668: ERROR/MainProcess] Received unregistered task of type 'home.tasks.add'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you're using relative imports?
+
+Please see
+https://docs.celeryq.dev/en/latest/internals/protocol.html
+for more information.
+
+The full contents of the message body was:
+b'[[2, 3], {}, {"callbacks": null, "errbacks": null, "chain": null, "chord": null}]' (81b)
+
+The full contents of the message headers:
+{'lang': 'py', 'task': 'home.tasks.add', 'id': '150aa07d-a6ab-4c82-8918-f490785d71e6', 'shadow': None, 'eta': None, 'expires': None, 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '150aa07d-a6ab-4c82-8918-f490785d71e6', 'parent_id': None, 'argsrepr': '(2, 3)', 'kwargsrepr': '{}', 'origin': 'gen15968@Ashish', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}}
+
+The delivery info for this task is:
+{'exchange': '', 'routing_key': 'celery'}
+Traceback (most recent call last):
+  File "G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py", line 659, in on_task_received
+    strategy = strategies[type_]
+               ~~~~~~~~~~^^^^^^^
+KeyError: 'home.tasks.add'
+[2025-02-17 21:51:06,677: ERROR/MainProcess] Received unregistered task of type 'home.tasks.add'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you're using relative imports?
+
+Please see
+https://docs.celeryq.dev/en/latest/internals/protocol.html
+for more information.
+
+The full contents of the message body was:
+b'[[2, 3], {}, {"callbacks": null, "errbacks": null, "chain": null, "chord": null}]' (81b)
+
+The full contents of the message headers:
+{'lang': 'py', 'task': 'home.tasks.add', 'id': '859578e0-c7a1-436e-a081-446ba0560314', 'shadow': None, 'eta': None, 'expires': None, 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '859578e0-c7a1-436e-a081-446ba0560314', 'parent_id': None, 'argsrepr': '(2, 3)', 'kwargsrepr': '{}', 'origin': 'gen15968@Ashish', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}}
+
+The delivery info for this task is:
+{'exchange': '', 'routing_key': 'celery'}
+Traceback (most recent call last):
+  File "G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py", line 659, in on_task_received
+    strategy = strategies[type_]
+               ~~~~~~~~~~^^^^^^^
+KeyError: 'home.tasks.add'
+[2025-02-17 21:51:06,680: ERROR/MainProcess] Received unregistered task of type 'home.tasks.add'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you're using relative imports?
+
+Please see
+https://docs.celeryq.dev/en/latest/internals/protocol.html
+for more information.
+
+The full contents of the message body was:
+b'[[2, 3], {}, {"callbacks": null, "errbacks": null, "chain": null, "chord": null}]' (81b)
+
+The full contents of the message headers:
+{'lang': 'py', 'task': 'home.tasks.add', 'id': '55e955c1-3a74-421d-95cb-60f0f1afa4a5', 'shadow': None, 'eta': None, 'expires': None, 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '55e955c1-3a74-421d-95cb-60f0f1afa4a5', 'parent_id': None, 'argsrepr': '(2, 3)', 'kwargsrepr': '{}', 'origin': 'gen15968@Ashish', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}}
+
+The delivery info for this task is:
+{'exchange': '', 'routing_key': 'celery'}
+Traceback (most recent call last):
+  File "G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py", line 659, in on_task_received
+    strategy = strategies[type_]
+               ~~~~~~~~~~^^^^^^^
+KeyError: 'home.tasks.add'
+[2025-02-17 21:53:39,616: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 21:53:39,618: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 21:53:40,674: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 22:16:24,643: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 22:16:24,643: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 22:16:25,711: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 22:21:44,467: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 22:21:44,467: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 22:21:45,510: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 22:28:25,234: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 22:28:27,500: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 22:28:42,979: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 22:35:48,842: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 22:35:51,192: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 22:36:00,427: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 22:40:58,302: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 22:41:00,342: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 22:41:09,611: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 22:54:17,508: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 22:54:19,875: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 22:54:29,127: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 23:05:59,200: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 23:06:01,270: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 23:06:12,563: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 23:15:15,955: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py", line 340, in start
+    blueprint.start(self)
+  File "G:\Otp-login\env\Lib\site-packages\celery\bootsteps.py", line 116, in start
+    step.start(parent)
+  File "G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py", line 746, in start
+    c.loop(*c.loop_args())
+  File "G:\Otp-login\env\Lib\site-packages\celery\worker\loops.py", line 130, in synloop
+    connection.drain_events(timeout=2.0)
+  File "G:\Otp-login\env\Lib\site-packages\kombu\connection.py", line 341, in drain_events
+    return self.transport.drain_events(self.connection, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Otp-login\env\Lib\site-packages\kombu\transport\virtual\base.py", line 997, in drain_events
+    get(self._deliver, timeout=timeout)
+  File "G:\Otp-login\env\Lib\site-packages\kombu\transport\redis.py", line 591, in get
+    ret = self.handle_event(fileno, event)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Otp-login\env\Lib\site-packages\kombu\transport\redis.py", line 573, in handle_event
+    return self.on_readable(fileno), self
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Otp-login\env\Lib\site-packages\kombu\transport\redis.py", line 569, in on_readable
+    chan.handlers[type]()
+  File "G:\Otp-login\env\Lib\site-packages\kombu\transport\redis.py", line 967, in _brpop_read
+    dest__item = self.client.parse_response(self.client.connection,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Otp-login\env\Lib\site-packages\redis\client.py", line 584, in parse_response
+    response = connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Otp-login\env\Lib\site-packages\redis\connection.py", line 592, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Otp-login\env\Lib\site-packages\redis\_parsers\resp2.py", line 15, in read_response
+    result = self._read_response(disable_decoding=disable_decoding)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Otp-login\env\Lib\site-packages\redis\_parsers\resp2.py", line 25, in _read_response
+    raw = self._buffer.readline()
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Otp-login\env\Lib\site-packages\redis\_parsers\socket.py", line 115, in readline
+    self._read_from_socket()
+  File "G:\Otp-login\env\Lib\site-packages\redis\_parsers\socket.py", line 68, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+[2025-02-17 23:15:20,175: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:391: CPendingDeprecationWarning: 
+In Celery 5.1 we introduced an optional breaking change which
+on connection loss cancels all currently executed tasks with late acknowledgement enabled.
+These tasks cannot be acknowledged as the connection is gone, and the tasks are automatically redelivered
+back to the queue. You can enable this behavior using the worker_cancel_long_running_tasks_on_connection_loss
+setting. In Celery 5.1 it is set to False by default. The setting will be set to True by default in Celery 6.0.
+
+  warnings.warn(CANCEL_TASKS_BY_DEFAULT, CPendingDeprecationWarning)
+
+[2025-02-17 23:16:16,341: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 23:16:20,643: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 10061 connecting to localhost:6379. WSAECONNREFUSED..
+Trying again in 2.00 seconds... (1/100)
+
+[2025-02-17 23:16:26,752: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 10061 connecting to localhost:6379. WSAECONNREFUSED..
+Trying again in 4.00 seconds... (2/100)
+
+[2025-02-17 23:16:34,853: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 10061 connecting to localhost:6379. WSAECONNREFUSED..
+Trying again in 6.00 seconds... (3/100)
+
+[2025-02-17 23:17:54,941: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 23:17:59,355: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 10061 connecting to localhost:6379. WSAECONNREFUSED..
+Trying again in 2.00 seconds... (1/100)
+
+[2025-02-17 23:18:05,508: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 10061 connecting to localhost:6379. WSAECONNREFUSED..
+Trying again in 4.00 seconds... (2/100)
+
+[2025-02-17 23:18:13,616: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 10061 connecting to localhost:6379. WSAECONNREFUSED..
+Trying again in 6.00 seconds... (3/100)
+
+[2025-02-17 23:18:23,765: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 10061 connecting to localhost:6379. WSAECONNREFUSED..
+Trying again in 8.00 seconds... (4/100)
+
+[2025-02-17 23:18:35,900: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 10061 connecting to localhost:6379. WSAECONNREFUSED..
+Trying again in 10.00 seconds... (5/100)
+
+[2025-02-17 23:18:50,088: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 10061 connecting to localhost:6379. WSAECONNREFUSED..
+Trying again in 12.00 seconds... (6/100)
+
+[2025-02-17 23:19:06,239: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 10061 connecting to localhost:6379. WSAECONNREFUSED..
+Trying again in 14.00 seconds... (7/100)
+
+[2025-02-17 23:19:24,564: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 10061 connecting to localhost:6379. WSAECONNREFUSED..
+Trying again in 16.00 seconds... (8/100)
+
+[2025-02-17 23:19:44,752: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379/0: Error 10061 connecting to localhost:6379. WSAECONNREFUSED..
+Trying again in 18.00 seconds... (9/100)
+
+[2025-02-17 23:20:02,830: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 23:20:04,296: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 23:21:36,650: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 23:21:36,952: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 23:21:38,426: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 23:26:54,187: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 23:26:54,274: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-17 23:26:55,717: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-18 22:25:34,410: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-18 22:25:34,545: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-18 22:25:35,834: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-18 22:25:56,225: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-18 22:25:56,265: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-18 22:25:57,561: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-18 22:27:19,168: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-18 22:27:19,210: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2025-02-18 22:27:20,410: WARNING/MainProcess] G:\Otp-login\env\Lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+

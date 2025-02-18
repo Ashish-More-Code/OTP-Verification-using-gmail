@@ -1,7 +1,7 @@
 from django.shortcuts import render,redirect
 from django.contrib.auth import get_user_model,authenticate,login,logout
 from django.contrib import messages
-from .emailer import *
+from .tasks import send_otp_on_email
 from .models import *
 import random
 from django.core.cache import cache
@@ -40,7 +40,7 @@ def home(request):
             email=user_obj[0].email
             subject="OTP for login"
             message=f"your OTP is {otp}"
-            send_otp_on_email(email,subject,message)
+            send_otp_on_email.delay(email,subject,message)
             messages.error(request, "login completed")
             return redirect(f'/checkotp/{user_obj[0].id}')
         else:
